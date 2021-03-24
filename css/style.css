@@ -7,12 +7,33 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .container {
     width: 80%;
     height: 100%;
     margin: 0 auto;
     padding-top: 1%;
     position: relative;
+}
+.grey-bkg {
+    background-color: #d3d3d3;
+}
+.grey-text {
+    line-height: 1.8em;
+    color: #808080;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.green-text {
+    color: #7cbb02;
+}
+.medium-text {
+    font-size: 27px;
 }
 /* --Common */
 
@@ -27,12 +48,12 @@ header {
     background-position: 115% 112%;
     background-repeat: no-repeat;
 }
-header a {
+a {
     text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
 }
-header a:hover {
+a:hover {
     color: #00ffff;
 }
 header li {
@@ -84,7 +105,7 @@ header li {
 }
 .jumbo > h1 {
     margin-bottom: 50px;
-    font-size: 57px;
+    font-size: 60px;
     color: #ffffff;
 }
 .j-btn {
@@ -93,3 +114,101 @@ header li {
 /* --Jumbotron */
 
 /* --Top of the page */
+
+/* Middle grey */
+.middle {
+    text-align: center;
+    padding: 3% 0 2.5% 0;
+}
+.middle > h3 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+.middle > span {
+   
+}
+/* --Middle grey */
+
+/* Main content */
+
+/* Main top */
+.main-top > div {
+    width: 33%;
+    float: left;
+    padding-right: 50px;
+    text-align: center;
+}
+.main-top img {
+    height: 250px;
+    margin-bottom: 30px;
+}
+.main-top hr {
+    width: 20%;
+    margin: 20px auto;
+    color: #808080;
+}
+/* --Main top */
+
+main > hr {
+    width: 97%;
+    margin: 60px auto;
+    color: #808080;
+}
+
+/* Main bottom */
+.main-bottom {
+    padding: 0 70px;
+    margin-bottom: 70px;
+}
+.main-bottom img {
+    width: 50%;
+    float: left;
+    margin-right: 50px;
+}
+.main-bottom h2 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.main-bottom a {
+    display: inline-block;
+    padding-top: 30px;
+    color: #5586bc;
+    text-decoration: underline;
+    text-transform: none;
+}
+/* --Main bottom */
+
+/* --Middle of the page */
+
+/* Bottom of the page */
+footer {
+    padding: 50px 0;
+}
+footer .container {
+    line-height: 72px;
+}
+footer > .container > div {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+footer > .container > div:first-child {
+    font-size: 50px;
+    font-weight: 500;
+}
+.bottom-right {
+    text-align: right;
+}
+#dropdown {
+    width: 200px;
+    margin: 0 30px;
+    background-color: #d3d3d3;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+#sticky {
+    position: fixed;
+    bottom: 1%;
+    right: 15%;
+}
