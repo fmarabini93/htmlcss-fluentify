@@ -1,0 +1,95 @@
+/* Common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 1%;
+    position: relative;
+}
+/* --Common */
+
+/* Top of the page */
+
+/* Header common */
+header {
+    height: 80vh;
+    background-color: #0c325a;
+    background-image: url(../img/background-header.png);
+    background-size: 75%;
+    background-position: 115% 112%;
+    background-repeat: no-repeat;
+}
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+header a:hover {
+    color: #00ffff;
+}
+header li {
+    display: inline-block;
+    margin-right: 5%;
+    list-style: none;
+}
+/* --Header common */
+
+.top-bar {
+    line-height: 38px;
+}
+.top-bar > div {
+    display: inline-block;
+}
+
+#logo {
+    width: 12%;
+    vertical-align: middle;
+}
+
+.header-nav {
+    width: 47%;
+    text-align: left;
+}
+
+.header-btns {
+    width: 40%;
+    text-align: right;
+}
+
+.btn {
+    padding: 5px 30px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.green-btn {
+    padding: 10px;
+    background-color: #7cbb02;
+    border: 1px solid #7cbb02;
+    border-radius: 5px;
+}
+
+/* Jumbotron */
+.jumbo {
+    width: 42%;
+    position: absolute;
+    top: 40%;
+}
+.jumbo > h1 {
+    margin-bottom: 50px;
+    font-size: 57px;
+    color: #ffffff;
+}
+.j-btn {
+    padding: 20px;
+}
+/* --Jumbotron */
+
+/* --Top of the page */
