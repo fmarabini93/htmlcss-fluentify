@@ -48,18 +48,16 @@ header {
     background-position: 115% 112%;
     background-repeat: no-repeat;
 }
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-a:hover {
-    color: #00ffff;
-}
 header li {
     display: inline-block;
     margin-right: 5%;
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 /* --Header common */
 
@@ -190,7 +188,6 @@ footer .container {
 footer > .container > div {
     width: 50%;
     float: left;
-    display: inline-block;
 }
 footer > .container > div:first-child {
     font-size: 50px;
@@ -207,8 +204,10 @@ footer > .container > div:first-child {
     border-left: 0;
     border-right: 0;
 }
+/* --Bottom of the page */
+
 #sticky {
     position: fixed;
     bottom: 1%;
-    right: 15%;
+    right: 5%;
 }
